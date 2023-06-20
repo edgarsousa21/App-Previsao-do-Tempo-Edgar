@@ -65,10 +65,10 @@ h2.city{
 }
 
 p.temp{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     margin-top: 20px;
-    width: 100px;
+    width: 400px;
 
 
 }
@@ -83,7 +83,7 @@ div.smaller-box{
 p.text-forecast{
     color: #ffffff;
     margin-left: 20px;
-    text-transform: capitalize;
+    text-transform: capitalize;    
 
 }
 
