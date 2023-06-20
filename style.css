@@ -41,7 +41,7 @@ button.find-button {
     border-radius: 50px;
     background-color: #7c7c7c2b;
     cursor: pointer;
-    float: right;    
+    float: right;
 
 }
 
@@ -50,21 +50,21 @@ img.img-find {
 
 }
 
-div.middle-box{
+div.middle-box {
     width: 20px;
 
 
 }
 
-h2.city{
-    color:#ffffff;
+h2.city {
+    color: #ffffff;
     font-size: 28px;
     font-weight: 300;
     width: 350px;
     margin-top: 10px;
 }
 
-p.temp{
+p.temp {
     font-size: 18px;
     color: #ffffff;
     margin-top: 20px;
@@ -73,22 +73,47 @@ p.temp{
 
 }
 
-div.smaller-box{
+div.smaller-box {
     display: flex;
     align-items: center;
     margin-top: 20px;
 
 }
 
-p.text-forecast{
+p.text-forecast {
     color: #ffffff;
     margin-left: 20px;
-    text-transform: capitalize;    
+    text-transform: capitalize;
 
 }
 
-p.humidity{
+p.humidity {
     color: #ffffff;
     margin-top: 20px;
     width: 150px;
+}
+
+@media screen and (max-width: 700px) {
+    p.temp {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div.bigger-box {       
+       margin-left: 20px;
+
+
+    }
+   
+    p.temp {
+        width: 310px;
+        font-size: 13px;
+    }
+
+    h2.city{
+        width: 310px;
+    }
+
+    
 }
